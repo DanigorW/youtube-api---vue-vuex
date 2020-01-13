@@ -5,7 +5,10 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    dataFromApi:[],
+    itemClicked: 0,
   },
+
   mutations: {
   },
   actions: {
